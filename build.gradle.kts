@@ -29,6 +29,7 @@ subprojects {
         implementation("software.amazon.awssdk:iam")
         implementation("software.amazon.awssdk:s3")
         implementation("software.amazon.awssdk:sqs")
+        implementation("software.amazon.awssdk:sns")
         implementation("software.amazon.awssdk:sts")
 
         implementation("org.springframework.boot:spring-boot-starter-webflux")

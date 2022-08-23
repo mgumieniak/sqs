@@ -27,3 +27,9 @@ variable "sqs_fifo_name" {
 variable "sqs_fifo_dlq_name" {
   default = "sqs_mgumieniak_dlq.fifo"
 }
+
+# SNS
+
+variable "sns_name" {
+  default = "sns_name"
+}

@@ -48,6 +48,6 @@ class Poller {
     fun execAndGetNextCallTimeInSeconds(): Long {
         val updateAndGet = nextCallInSeconds.updateAndGet { (5L..9L).random() }
         println("Executed at: ${Instant.now()}, next call after: $updateAndGet!")
-        return updateAndGet;
+        return updateAndGet
     }
 }
